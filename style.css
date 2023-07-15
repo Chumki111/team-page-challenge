@@ -4,6 +4,8 @@
    
 }
 
+/* header related style */
+
 .header{
     display: flex;
     
@@ -33,4 +35,37 @@
     height: 87px;
     margin-left: 215px;
    
+}
+/* main section related style */
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    position: relative;
+    margin: 0px 150px;
+}
+.images{
+    display: flex;
+    column-gap: 10px;
+    
+}
+.photo{
+    width: 300px;
+    height: 400px;
+}
+.item{
+    margin-bottom: 40px;
+    
+}
+.name{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-top: 10px;
+
+}
+.description{
+    writing-mode: vertical-rl;
+}
+.item-2,.item-5{
+    margin-top: 100px;
 }
