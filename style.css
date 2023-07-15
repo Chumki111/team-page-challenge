@@ -1,4 +1,36 @@
 *{
     margin: 0;
     padding: 0;
+   
+}
+
+.header{
+    display: flex;
+    
+}
+.header-text-1{
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -1.62px;
+    margin-top: 110px;
+    margin: 110px 250px 173px 150px;
+}
+.header-text-2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 215px;
+    margin-top: 110px;
+    margin-bottom: 10px;
+}
+.header-text-3{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    width: 439px;
+    height: 87px;
+    margin-left: 215px;
+   
 }
